@@ -1,3 +1,4 @@
+//display all country flag from "restcountries.com"
 var link = "https://restcountries.com/v3.1/all"
 var xml = new XMLHttpRequest()
 xml.open("GET",link,true)
